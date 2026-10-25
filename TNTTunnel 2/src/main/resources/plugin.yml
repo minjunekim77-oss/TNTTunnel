@@ -1,0 +1,13 @@
+name: TNTTunnel
+version: 1.0.0
+main: dev.tnttunnel.TNTTunnel
+api-version: '1.21'
+description: Sequential TNT excavation tunnel; ancient debris remains blast resistant.
+commands:
+  tnttunnel:
+    description: Start or stop a progressive TNT tunnel
+    usage: /tnttunnel <length 10-1000|stop>
+    permission: tnttunnel.use
+permissions:
+  tnttunnel.use:
+    default: op
